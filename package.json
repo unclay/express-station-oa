@@ -1,0 +1,25 @@
+{
+  "name": "express-station-oa",
+  "version": "0.0.1",
+  "description": "一个办公系统，最近行政催得紧，当作练手，从express-station fork一份进行开发",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unclay/express-station-oa.git"
+  },
+  "author": "wangchenglin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unclay/express-station-oa/issues"
+  },
+  "homepage": "https://github.com/unclay/express-station-oa"
+}

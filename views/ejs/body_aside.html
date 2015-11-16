@@ -1,0 +1,34 @@
+<aside class="aside theme-asd-bg">
+	<ul class="aside-nav theme-clr">                          
+        <li class="theme-act-bg theme-act-subbg">
+        	<h4><i class="iconfont nav-img">&#xe601;</i>打卡处理<i class="iconfont nav-hint">&#xe600;</i></h4>
+        	<blockquote>
+        		<a href="">打卡记录</a>
+        		<a href="">打卡统计</a>
+        	</blockquote>
+        </li>  
+        <li class="theme-act-bg theme-act-subbg">
+        	<h4><i class="iconfont nav-img">&#xe601;</i>打卡处理<i class="iconfont nav-hint">&#xe600;</i></h4>
+        	<blockquote>
+        		<a href="">打卡记录</a>
+        		<a href="">打卡统计</a>
+        	</blockquote>
+        </li>  
+        <li class="theme-act-bg theme-act-subbg">
+        	<h4><i class="iconfont nav-img">&#xe601;</i>打卡处理<i class="iconfont nav-hint">&#xe600;</i></h4>
+        	<blockquote>
+        		<a href="">打卡记录</a>
+        		<a href="">打卡统计</a>
+        	</blockquote>
+        </li>
+    </ul>   
+</aside>
+<script>
+    $(".aside-nav li").on("click", function(){
+    	if( $(this).hasClass("active") ){
+    		$(this).removeClass("active");
+    	} else {
+    		$(this).addClass("active").siblings("li").removeClass("active");
+    	}
+    });
+</script>
